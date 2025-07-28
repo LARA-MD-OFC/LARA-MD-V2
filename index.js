@@ -61,7 +61,7 @@ async function connectToWA() {
   const prefix = config.PREFIX;
   //===========================
 
-  console.log("Connecting LARA-MD V2");
+  console.log("Connecting NOVA-MD V1");
   const { state, saveCreds } = await useMultiFileAuthState(
     __dirname + "/auth_info_baileys/"
   );
@@ -92,21 +92,21 @@ async function connectToWA() {
           require("./plugins/" + plugin);
         }
       });
-      console.log("LARA-MD V2 installed successful ✅");
-      console.log("LARA-MD V2 connected to whatsapp ✅");
+      console.log("NOVA-MD V1 installed successful ✅");
+      console.log("NOVA-MD V1 connected to whatsapp ✅");
 
-      let up = `LARA-MD V2 connected successful`;
-      let up1 = `Hello LARA, I made bot successful`;
+      let up = `*NOVA-MD V1 Sonnected Successful*\n\n*Onwar Theekshana*\n\n*94720522884*\n\n*Onwar Malshani*\n\n* 947612XX912*\n\n*You Can Join My Whatsapp Channel*\n\n*https://whatsapp.com/channel/0029Vb5ygc31SWsvGfvMTJ0c*`;
+      let up1 = `*Hello Nova, I Made Bot Successful*\n\n*Onwar Theekshana*\n\n*94720522884*\n\n*Onwar Malshani*\n\n* 947612XX912*\n\n*You Can Join My Whatsapp Channel*\n\n*https://whatsapp.com/channel/0029Vb5ygc31SWsvGfvMTJ0c*`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
-          url: `https://github.com/LARA-MD-OFC/Lara-MD-Help/blob/main/Connected%20.png?raw=true`,
+          url: `https://github.com/NOVA-MD-OFC/NOVA-MD-Help/blob/main/WhatsApp%20Image%202025-07-28%20at%2013.14.18_33ce712b.jpg?raw=true`,
         },
         caption: up,
       });
       robin.sendMessage("94720522884@s.whatsapp.net", {
         image: {
-          url: `https://github.com/LARA-MD-OFC/Lara-MD-Help/blob/main/Connected%20.png?raw=true`,
+          url: `https://github.com/NOVA-MD-OFC/NOVA-MD-Help/blob/main/WhatsApp%20Image%202025-07-28%20at%2013.14.18_33ce712b.jpg?raw=true`,
         },
         caption: up1,
       });
@@ -395,7 +395,7 @@ async function connectToWA() {
   });
 }
 app.get("/", (req, res) => {
-  res.send("hey, LARA-MD V2 started");
+  res.send("hey, NOVA-MD V1 Started");
 });
 app.listen(port, () =>
   console.log(`Server listening on port http://localhost:${port}`)
