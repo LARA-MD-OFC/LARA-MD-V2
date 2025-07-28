@@ -84,15 +84,12 @@ ${menu.group}
 ${menu.search}
 
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
-
-> ROBIN MENU MSG
 `;
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://github.com/NOVA-MD-OFC/NOVA-MD-Help/blob/main/WhatsApp%20Image%202025-07-28%20at%2013.14.18_33ce712b.jpg?raw=true",
           },
           caption: madeMenu,
         },
