@@ -57,31 +57,24 @@ cmd(
         }
       }
 
-      let madeMenu = `👋 *Hello  ${pushname}*
+      let madeMenu = `╔   〔  〕   ╗\n\n👋 *Hello  ${pushname}*
 
 
-| *MAIN COMMANDS* |
-    ▫️.alive
-    ▫️.menu
-    ▫️.ai <text>
-    ▫️.system
-    ▫️.owner
-| *DOWNLOAD COMMANDS* |
-    ▫️.song <text>
-    ▫️.video <text>
-    ▫️.fb <link>
-| *GROUP COMMANDS* |
-${menu.group}
-| *OWNER COMMANDS* |
-    ▫️.restart
-    ▫️.update
-| *CONVERT COMMANDS* |
-    ▫️.sticker <reply img>
-    ▫️.img <reply sticker>
-    ▫️.tr <lang><text>
-    ▫️.tts <text>
-| *SEARCH COMMANDS* |
-${menu.search}
+  ╭─「 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗣𝗔𝗡𝗘𝗟 」
+  │🔹 𝗢𝘄𝗻𝗲𝗿 : 𝗧𝗵𝗲𝗲𝗸𝘀𝗵𝗮𝗻𝗮
+  │🔹 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 0.0.1
+  │🔹 𝗠𝗲𝗺𝗼𝗿𝘆 : 𝘅𝘅
+  ╰─────────────●●►
+   
+   REPLY THE NUMBER
+  ╭──❖─────────────╮
+  ¦ ➊ 𝘅𝘅
+  ¦ ➋ 𝘅𝘅
+  ¦ ➌ 𝘅𝘅
+  ╰──❖─────────────╯
+💠𝗡𝗼𝘃𝗮 ✦ All Rights Reserved💠
+
+> ᴍᴀᴅᴇ ʙʏ ᴛʜᴇᴇᴋꜱʜᴀɴᴀ , ᴍᴀʟꜱʜᴀɴɪ
 
 
 `;
